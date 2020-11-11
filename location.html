@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <div class="col-sm-12 col-md-8 col-lg-6 mx-auto box">
+        <div class="container propertyFormBox mt-4">
+            <a href="index.html">
+                <p><span>&#8592</span> Back</p>
+            </a>
+            <h4 class="black">Where is your property located?</h4>
+            <p id="locationDetailsParagraph">An accurate location helps you connect with right buyers</p>
+            <form class="needs-validation" novalidate>
+                <div class="">
+                    <div>
+                        <label class="black locationFormLableFont" for="validation">Add location</label>
+                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name="stt"
+                            class="form-control  mt-2" required></select>
+                        <select id="state" class="form-control  mt-2" required></select>
+                        <div id="apartmentDetails"></div>
+                        <div id="localityDetails"></div>
+                        <div id="houseNumberDetails"></div>
+                    </div>
+                </div>
+                <a href="propertyProfile.html">
+                    <button class="btn btn-primary mb-4 mt-4" type="button">Continue</button>
+                </a>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/locattion.js"></script>
+    <script language="javascript">print_state("sts");</script>
+</body>
+
+</html>

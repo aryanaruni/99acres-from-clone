@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Your Property</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="Onload()">
+    <div class="col-sm-12 col-md-8 col-lg-6 mx-auto box">
+        <div class="container propertyFormBox mt-4">
+            <h5 class="black">Begin posting Your Property</h5>
+            <p id="propertyFormBoxPara1" class="black">Add Basic Details</p>
+            <p class="propertyFormBoxPara2 black">You're looking to...</p>
+
+            <ul class=" room mb-0 mt-4 pl-0">
+                <li id="sellBtn" >
+                    <input type='radio' value='Sell' name='Details' id='Sell' />
+                    <label id="sellBtn" class="" for='Sell'>Sell</label>
+                </li>
+                <li id="rentBtn" class="">
+                    <input type='radio' value='Leasehold' name='Details' id='Leasehold' />
+                    <label for='Leasehold'>Rent/Lease</label>
+                </li>
+                <li id="pgBtn" class="">
+                    <input type='radio' value='Coopertaivesociety' name='Details' id='Coopertaivesociety' />
+                    <label for='Coopertaivesociety'>PG</label>
+                </li>
+                
+            </ul>
+
+            <p class="propertyFormBoxPara2 black">And it's a ...</p>
+
+
+            <label for="Residential"><input type="radio" id="Residential" class="radioBtn" name="radioBtn"
+                    value="radioBtn" checked>Residential
+            </label>
+            <label id="cmcrl" for="Commercial"><input type="radio" id="Commercial" class="radioBtn" name="radioBtn"
+                    value="radioBtn">Commercial
+            </label>
+
+
+
+            <div id="formBOX" class="propertyFromBtn">
+
+            </div>
+
+
+
+
+            <p class="propertyFormBoxPara2 mt-4 black">Your Contact details for the buyer to reach you</p>
+            <input type="number" id="phoneNo" class="p-2 px-3" name="phoneNumber" placeholder="Phone Number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <span class="loginLink">Are you registered user? <a href="#" class="text-primary">Login</a></span>
+
+            <a href="location.html">
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block pt-2 pb-2 mt-3 mb-4">Being to Post your
+                    Property
+                </button>
+            </a>
+
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
