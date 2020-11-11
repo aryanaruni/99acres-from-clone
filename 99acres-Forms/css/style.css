@@ -1,0 +1,270 @@
+body {
+  color: #424343d1;
+}
+
+.box {
+  border: 2px solid #63596d63;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.black {
+  color: #000000;
+}
+.marginTop {
+  margin-top: 7px;
+}
+.propertyFormBox h5 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+#propertyFormBoxPara1 {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+.propertyFormBoxPara2 {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.propertyFormBoxPara3 {
+  margin-top: 15px;
+}
+.propertyFormBox a {
+  text-decoration: none;
+  color: #424343d1;
+}
+.propertyTypeBtn {
+  border-radius: 20px;
+  margin-right: 5px;
+  padding: 5px 9px;
+  font-size: 0.8rem;
+  border-color: #888888;
+}
+.propertyTypeBtn:hover {
+  color: #000000;
+  background-color: #8cc6ff65;
+  font-weight: 500;
+  border-color: #3c64af;
+}
+
+.propertyTypeBtn.focus,
+.propertyTypeBtn:focus {
+  border-color: #3c64af;
+  background-color: #8cc6ff65;
+  color: #000000;
+  font-weight: 500;
+}
+.radioBtn {
+  margin-right: 5px;
+  font-size: 1rem;
+}
+#Commercial {
+  margin-left: 10px;
+}
+#phoneNo {
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #63596d63;
+}
+.loginLink {
+  font-size: 0.8em;
+}
+
+/* **************** LOCATION Form  PAGE-2****************** */
+.locationFormLableFont {
+  font-size: 13px;
+  font-weight: 600;
+}
+/* *****************Property details PAGE-3********** */
+
+.room ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.room li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.room input {
+  display: none;
+}
+
+
+.room li label {
+  cursor: pointer;
+  padding: 1px 10px 1px 10px;
+  border: 1px solid #424343d1;
+  border-radius: 15px;
+}
+.room input:checked + label {
+  color: #000000;
+  background-color: #8cc6ff65;
+  font-weight: 500;
+  border-color: #3c64af;
+  border-radius: 15px;
+}
+.addBedRoom {
+  cursor: pointer;
+  display: inline;
+}
+.textHeight {
+  height: 35px;
+}
+#CarpetAreaDetails {
+  height: 40px;
+  padding: 10px;
+}
+
+.carpetAreaFormDropdown {
+  color: #888888;
+  height: 40px;
+}
+/* furnished */
+.furnishing {
+  border: 1px solid rgba(43, 43, 43, 0.363);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.furnishing p {
+  font-size: 13px;
+}
+.furnishing form div input {
+  border-color: #3c64af;
+  width: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.furnishing form div input::-webkit-outer-spin-button,
+.furnishing form div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.furnishing form div input:focus {
+  outline-color: #3c64af;
+  background-color: #8cc6ff65;
+}
+
+.parking input {
+  width: 30px;
+  text-align: center;
+  border-color: #3c64af;
+
+  border-radius: 5px;
+}
+.parking input::-webkit-outer-spin-button,
+.parking input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.parking input:focus {
+  outline-color: #3c64af;
+  background-color: #8cc6ff65;
+}
+
+/* **********floor details ***********/
+#floorDetails {
+  height: 40px;
+  padding: 10px;
+}
+.floorDetailsDropdown {
+  color: #888888;
+  height: 40px;
+}
+/* **********PHOTOS***********/
+.picBox {
+  height: 200px;
+  border: 1px dashed rgba(54, 158, 218, 0.911);
+  border-radius: 5px;
+  background-color: #5dc7f80e;
+}
+.picBox form input::-webkit-file-upload-button {
+  visibility: visible;
+}
+/* .picBox form input::before {
+  content: "Upload";
+  display: inline-block;
+  border: 1px solid #2c57e3;
+  border-radius: 3px;
+  padding: 2px 8px;
+  outline: none;
+  white-space: nowrap;
+  background-color: #51baff29;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+} */
+.propertyFormBox input:checked + label {
+  color: #000000;
+  background-color: #8cc6ff65;
+  font-weight: 500;
+  border-color: #3c64af;
+  border-radius: 15px;
+}
+.propertyFormBox label {
+  padding: 5px 9px;
+  cursor: pointer;
+
+  border: 1px solid #424343d1;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 7px;
+}
+/* *************price&details**************/
+#infoPng {
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.roomV input {
+  visibility: initial;
+}
+
+#priceDetails,
+#pricePerSqFeetDetails {
+  height: 40px;
+  padding: 10px;
+}
+
+
+.priceBox {
+  height: 40px;
+  padding: 10px;
+}
+#aboutDetails {
+  height: 100px;
+}
+#collapsePriceBtn {
+  visibility: hidden;
+}
+.inputBox input {
+  visibility: initial;
+  display: inline;
+}
+
+
+/* *****************additional details*************/
+#facing {
+  height: 40px;
+  display: inline;
+}
+@media (max-width: 376px) {
+  label {
+    font-size: 13px;
+    display: flex;
+    margin-left: 4px;
+  }
+  .addBedRoom {
+    font-size: 12px;
+  }
+  .parking label {
+    display: inline-block;
+  }
+}
+
+.visibleInput input {
+  display: inline;
+}
